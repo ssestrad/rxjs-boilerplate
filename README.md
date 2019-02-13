@@ -36,7 +36,7 @@ This will open a window with the demo at: [http://localhost:8080](http://localho
 .
 ├───src/                            # main source code for app
 │   ├───components/                 # reusable UI components. Usually consists of a JS and CSS file pairs. Because the project is setup with CSS modules, any class names will be isolated to the component.
-│   ├───lib/                  # common classes
+│   ├───lib/                        # common classes
 │   │   ├───component.js            # simple class for making adding/removing, showing/hiding of DOM elements a bit easier
 │   │   ├───logger.js               # simple class for logging avoiding the use of console
 │   │   └───template-operators.js   # simple set of functions for doing conditionals statements with string interpolation, poor man's template system
