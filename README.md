@@ -8,6 +8,8 @@ It shows how you can leverage RxJS to process user input and network calls.
 
 The aim of this boilerplate is to use no other framework or dependencies other than RxJS and dependencies that don't add to your JS bundle while still providing enough pieces to build a meaningful app. As such, a simple component project structure was setup with some helper classes found in the `lib` folder to simplify building the UI. The only other dependency apart from RxJS that gets included in the JS bundle is DOMPurify to prevent XSS attacks when rendering html using the `Component` class.
 
+A TypeScript version of this project is available [here](https://github.com/ssestrad/rxjs-typescript-boilerplate)
+
 ## Quick Start
 
 Make sure to have [nodeJS](https://nodejs.org) 8 or greater installed.
